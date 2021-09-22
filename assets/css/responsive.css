@@ -1,0 +1,493 @@
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 5px;
+        position: relative;
+    }
+    .navbar-area .navbar-btn-wrapper {
+        margin-left: 20px;
+    }
+    .navbar-area .navbar-btn-wrapper .boxed-btn{
+        width: 150px;
+    }
+    .header-area .header-inner .title {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .faq-area .left-content-area .card .card-header a:after, 
+    .faq-area .right-content-area .card .card-header a:after {
+        height: 100%;
+    }
+    .blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .title {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .sidebar .widget-area.popular-post .widget-body ul li .single-popular-post .content .title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        background: #fff;
+        z-index: 9;
+        right: 14%;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .dropdown-item {
+        background: #fff;
+        color: #fff;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+    .navbar-area .navbar-btn-wrapper .boxed-btn,
+    .header-bottom-area .left-content-area:after {
+        display: none;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item{
+        line-height: 40px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.show .nav-link {
+        color: #8e96a0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.active .nav-link
+     {
+        color: #18BA60;
+    }
+    .header-botttom-area .single-header-bottom-item {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .about-area .right-content-area .img-wrapper{
+        margin-bottom: 30px;
+    }
+    .product-fetured-row{
+        border-bottom: none;
+    }
+    .product-fetured-row.right {
+        border-top: 1px solid #e5e5e5;
+        padding-top: 60px;
+    }
+    .product-fetured-row.left {
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 60px;
+    }
+    .product-fetured-row:last-child{
+        border-top: none !important;
+        padding-top: 0px;
+    }
+    .single-product-item .thumb img{
+        width: 100%;
+    }
+    .subscription-area .right-content{
+        text-align: left;
+    }
+    .core-feature .right-content-area {
+        padding: 96px 30px 87px 30px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.navbar-btn-wrapper{
+        display: none;
+    } 
+    .product-fetured-row:last-child .right-content-area {
+        margin-bottom: 60px;
+    }   
+    .breadcrumb-area .page-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .blog-single-page-content-area .sidebar{
+        margin-top: 60px;
+    }
+    .blog-single-page-content-area{
+        padding-bottom: 90px;
+    }
+    .blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .readmore{
+        font-size: 14px;
+    }
+    .blog-page-content-area {
+        padding-bottom: 90px;
+    }
+    .blog-page-content-area .sidebar {
+        margin-top: 60px;
+    }
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+   
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        background: #fff;
+        z-index: 9;
+        right: 0;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .dropdown-item {
+        background: #fff;
+        color: #fff;
+    }
+    
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link{
+        line-height: 35px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.show .nav-link {
+        color: #8e96a0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.active .nav-link
+     {
+        color: #18BA60;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.navbar-btn-wrapper{
+        display: none;
+    }
+    .header-area .header-inner .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .header-botttom-area .single-header-bottom-item {
+        margin-bottom: 40px;
+    }
+    .header-botttom-area {
+        padding: 60px 0 30px 0;
+    }
+    .about-area .right-content-area .img-wrapper{
+        margin-bottom: 30px;
+    }
+    .product-fetured-row{
+        border-bottom: none;
+    }
+    .product-fetured-row.right {
+        border-top: 1px solid #e5e5e5;
+        padding-top: 60px;
+    }
+    .product-fetured-row.left {
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 60px;
+    }
+    .product-fetured-row:last-child{
+        border-top: none !important;
+        padding-top: 0px;
+    }
+    .single-product-item .thumb img{
+        width: 100%;
+    }
+    .core-feature .left-content-area{
+        min-height: 500px;
+    }
+    .core-feature .right-content-area{
+        max-width: 100%;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .footer-area .left-content-area {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .footer-area .right-content-area {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .product-fetured-row:last-child .right-content-area {
+        margin-bottom: 60px;
+    } 
+    .blog-single-page-content-area .sidebar{
+        margin-top: 60px;
+    }
+    .blog-single-page-content-area {
+        padding-bottom: 90px;
+    }
+    .blog-page-content-area .blog-page-content-warpper .single-blog-post-item .thumb img {
+        width: 100%;
+    }
+    .blog-page-content-area .sidebar {
+        margin-top: 60px;
+    }
+    .blog-page-content-area{
+        padding-bottom: 90px;
+    }
+    .blog-single-page-content-area .blog-single-page-content-warpper .single-blog-post-item .content .title {
+        font-size: 22px;
+    }
+    .blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .title ,
+    .blog-single-page-content-area .blog-single-page-content-warpper .comments-form-area .title{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .breadcrumb-area .page-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .sidebar .widget-area .widget-title .title{
+        font-size: 25px;
+    }
+}
+
+
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 510px) {
+    
+    .navbar-area .navbar-collapse {
+        top: 100%;
+        right: 0;
+    }
+    .header-area .header-inner .title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .header-area {
+        padding: 200px 0 200px 0;
+    }
+    .core-feature .right-content-area {
+        padding-left: 15px;
+    }
+    .subscription-area .left-content .title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .faq-area .left-content-area .card .card-header a:after, .faq-area .right-content-area .card .card-header a:after{
+        height: 100%;
+    }
+    .blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .readmore {
+        font-size: 14px;
+    }
+    .blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .right-content-area {
+        float: none;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .header-area .header-inner .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .contact-area .right-content-area {
+        padding: 60px 40px 60px 40px;
+    }
+    .subscription-area .left-content .title {
+        margin-top: 20px;
+    }
+    .sidebar .widget-area.popular-post .widget-body ul li .single-popular-post .content .title {
+        font-weight: 600;
+    }
+    .breadcrumb-area .page-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+    .header-area .header-inner .title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .about-area .left-content-area .title {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .subscription-area .left-content .title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+    .section-title .title {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .blog-page-content-area .blog-page-content-warpper .single-blog-post-item .content .title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .sidebar .widget-area .widget-title .title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .title,
+    .blog-single-page-content-area .blog-single-page-content-warpper .comments-form-area .title {
+        font-weight: 600;
+    }
+    
+    .blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list.reply {
+        margin-left: 50px;
+    }
+}
+
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+    .navbar-light .navbar-brand {
+        margin-right: 0;
+    }
+    .header-area .header-inner .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .section-title .title {
+        font-size: 23px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .core-feature .right-content-area .title {
+        font-size: 25px;
+    }
+    .blog-single-page-content-area .blog-single-page-content-warpper .post-meta-area .left-content-area ul li a{
+        padding: 5px 5px;
+    }
+    .blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list.reply {
+        margin-left: 30px;
+    }
+}
+
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+    .navbar-light .navbar-brand {
+        margin-right: 0;
+        width: 170px;
+    }
+    
+    .header-area .header-inner .title {
+        font-size: 27px;
+        line-height: 40px;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn {
+        font-size: 14px;
+    }
+    .header-area {
+        padding: 160px 0 160px 0;
+    }
+    .about-area .left-content-area .title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .boxed-btn{
+        font-size: 14px;
+    }
+    .subscription-area .left-content p {
+        font-size: 14px;
+    }
+    .subscription-area .left-content .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .faq-area .right-content-area .card .card-header a{
+        padding-right: 35px;
+    }
+    .contact-area .title {
+        font-size: 25px;
+    }
+    .blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list .thumb {
+        position: initial;
+        margin-bottom: 20px;
+    }
+    
+    .blog-single-page-content-area .blog-single-page-content-warpper .comments-list-area .single-comments-list .content {
+        padding-left: 0;
+    }
+}
+
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 330px) {
+   .navbar-light .navbar-brand {
+       margin-right: 0;
+       width: 130px;
+   }
+   .header-area .header-inner .title {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .features-area-start .left-content-area .icon {
+        position: initial;
+        margin-bottom: 30px;
+    }
+    
+    .features-area-start .left-content-area .content,
+    .core-feature .right-content-area {
+        padding-left: 0px;
+    }
+    .subscription-area .left-content .title {
+        font-size: 19px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+    .faq-area .left-content-area .card .card-header a:after, .faq-area .right-content-area .card .card-header a:after{
+        display: none;
+    }
+    .faq-area .left-content-area .card .card-header a, .faq-area .right-content-area .card .card-header a,
+    .faq-area .left-content-area .card .card-body, .faq-area .right-content-area .card .card-body{
+        padding-left: 25px;
+    }
+    .contact-area .title {
+        font-size: 25px;
+    }
+    .sidebar .widget-area.popular-post .widget-body ul li .single-popular-post .content .title{
+        font-size: 16px;
+    }
+}
